@@ -1,0 +1,23 @@
+$bg: #f3f4f6;
+$accent: #1f2937;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input:not([type="checkbox"]){
+  margin-top: 5px;
+  padding: 8px 12px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+label{
+  font-size: 0.875rem;
+}
+a{
+  text-decoration: none
+}
+@import "./index.scss";

@@ -1,0 +1,68 @@
+.index_page{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+    display: flex;
+    background-color: $bg;
+}
+.index_container{
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    img{
+        place-self: center;
+    }
+    form{
+        max-width: 450px;
+        padding: 16px 24px;
+        background-color: white;
+        border-radius: 10px;
+        display: grid;
+        gap: 10px;
+        #save-session{
+            margin-right: 5px;
+            width: 16px;
+            height: 16px;
+        }
+        button{
+            height: 32px;
+            padding: 8px 16px;
+            background-color: $accent;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 0.75rem;
+            border: none;
+            letter-spacing: 0.1em;
+        }
+    }
+}
+.refeal{
+    span{
+        font-weight: bold;
+    }
+}
+.session{
+    display: flex;
+}
+.actions{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    a{
+        font-size: 0.875rem;
+        color: $accent;
+        text-decoration: underline;
+    }
+}
+.forgot{
+    p{
+        font-size: 0.875rem;
+    }
+    button{
+
+    }
+}
